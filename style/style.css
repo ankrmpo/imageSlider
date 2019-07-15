@@ -1,0 +1,90 @@
+* {
+    padding-left: 0px;
+    margin-left: -4px;
+    /* margin-left: 0px; ovako nije do lijevog ruba, ali izgleda ljepše*/
+}
+
+.text {
+    float: right;
+    width: 33%;
+}
+
+.text h1 {
+    color: rgb(29, 73, 139);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 400%;
+}
+
+.text p {
+    color: rgb(51, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 220%;
+}
+
+.images {
+    margin-top: 25px;
+    float: right;
+    height: 700px;
+    width: 66%;
+}
+
+.upperRow {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 45%;
+    white-space: nowrap;
+    direction: rtl;
+}
+
+.upperRow img {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.bottomRow {
+    float: left;
+    height: 45%;
+    width: 83%;
+    direction: rtl;
+    white-space: nowrap;
+}
+
+.bottomRow img {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+img {
+    height: 100%;
+    width: auto;
+}
+
+.cursors {
+    background-color: white;
+    margin-right: 10px;
+    float: right;
+    width: 20%;
+    position: relative;
+    right: -10px;
+    height: 45%;
+    top: -315px;
+}
+
+.cursors img {
+    display: block;
+    height: 30px;
+    float: right;
+    padding: 15px 17px 15px 17px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.cursors img:hover {
+    border-color: rgb(29, 73, 139);
+}
+
+.images {
+    overflow: hidden;
+    margin-right: 15px;
+}
